@@ -11,4 +11,6 @@ jobs:
             pwd
             cd
             ls -al
-            cat /etc/os-release  
+            cat /etc/os-release 
+            cat /etc/group
+             
