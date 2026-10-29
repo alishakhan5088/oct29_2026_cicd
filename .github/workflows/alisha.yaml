@@ -13,5 +13,5 @@ jobs:
             ls -al
             cat /etc/os-release 
             cat /etc/group
-            echo Build Number: 8
+            echo Current Build Number is 10
              
