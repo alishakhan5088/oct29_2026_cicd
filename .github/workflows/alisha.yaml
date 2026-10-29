@@ -13,5 +13,7 @@ jobs:
             ls -al
             cat /etc/os-release 
             cat /etc/group
-            echo Current Build Number is 10
+             - name: Print Build Number
+        env:
+          BUILD_NUMBER: ${{ github.run_number }}
              
